@@ -1,0 +1,109 @@
+footer {
+  background-color: #223055;
+  padding: 50px 0;
+}
+footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .wrap .foot1{
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .wrap .foot1 h1{
+  width: 313px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  color: #B0B7C0;
+}
+footer .wrap .foot1 h1 span{
+
+}
+footer .wrap .foot1 h1::before{
+  content: "";
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  background-image: url(../img/logo2.png);
+}
+footer .wrap .foot1 ul{
+  display: flex;
+  gap: 20px;
+}
+footer .wrap .foot1 ul li{
+  font-size: 0;
+}
+footer .wrap .foot1 ul li::before{
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px; 
+  background-size: contain;
+}
+footer .wrap .foot1 ul li:nth-child(1)::before{
+  background-image: url('https://cdn2.smentertainment.com/images/icon-link-youtube.svg');
+}
+footer .wrap .foot1 ul li:nth-child(2)::before{
+  background-image: url('https://cdn2.smentertainment.com/images/icon-link-instagram.svg');
+}
+footer .wrap .foot1 ul li:nth-child(3)::before{
+  background-image: url('https://cdn2.smentertainment.com/images/icon-link-x.svg');
+}
+footer .wrap .foot1 ul li:nth-child(4)::before{
+  background-image: url('https://cdn2.smentertainment.com/images/icon-link-facebook.svg');
+}
+footer .wrap .foot1 ul li:nth-child(5)::before{
+  background-image: url('https://cdn2.smentertainment.com/images/icon-link-weibo.svg');
+}
+footer .wrap .foot1 ul li a{
+
+}
+footer .wrap .foot2{
+  padding-right: 86px;
+}
+footer .wrap .foot2 ul{
+  padding-bottom: 30px;
+}
+footer .wrap .foot2 ul li{
+  display: flex;
+  padding-bottom: 10px;
+  gap: 80px;
+  font-size: 15px;
+}
+footer .wrap .foot2 ul li a{
+  color: white;
+  font-weight: bold;
+}
+footer .wrap .foot2 ul li .contact{
+  padding: 0;
+}
+footer .wrap .foot2 ul li .contact li{
+
+}
+footer .wrap .foot2 ul li .contact li a{
+  color: #B0B7C0;
+  font-weight: normal;
+}
+footer .wrap .foot2 ul li select{
+  margin-left: 10px;
+  background-color: #223055;
+  color: #B0B7C0;
+}
+footer .wrap .foot2 ul li select option{
+
+}
+footer .wrap .foot2 p{
+  color: #B0B7C0;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+footer .wrap .foot2 p a{
+  color: white;
+  font-weight: bold;
+}

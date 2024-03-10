@@ -1,0 +1,29 @@
+#title {  
+  background-color: #223055;
+  overflow: hidden;
+  height: 720px;
+  min-height: 720px;
+  padding-top: 120px;
+}
+#title .wrap {  
+
+  position: relative;
+}
+#title .wrap:after{
+  content: "";
+  display: block;
+  width: 80%;
+  height: 80%;
+  background-image: url(../img/sm-hero-image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -57px;
+  left: 27%;
+}
+#title .wrap h2{  
+  font-size: 112px;
+  color: #FFB7CA;
+  padding-top: 60px;
+}
+

@@ -1,0 +1,44 @@
+header{
+  height: 120px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: #223055;
+
+
+}
+header:hover{  
+  border-bottom: 1px solid rgba(255,225,233,0.1);
+}
+header .wrap{  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .wrap h1{  
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 96px;
+  height: 96px;
+}
+header .wrap h1 a{
+  
+}
+header .wrap ul{
+  gap: 60px;
+}
+header .wrap ul li{
+  
+}
+header .wrap ul li a{  
+  color: white;
+  padding: 5px 15px;
+  font-weight: 500;
+}
+header .wrap ul li a:hover{  
+  border-radius: 20px;
+  background-color: rgba(255,225,233,0.1);
+}

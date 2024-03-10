@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM Entertainment</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <!--  -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+<!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+<!-- 슬릭 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(
+            function(){
+            //포트폴리오 슬라이드
+                $('.newAni').slick({
+                    infinite: false, //무한반복옵션
+                    slidesToShow: 3, //한 화면에 보여질 컨텐츠 개수
+                    slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
+                    autoplay: false, //자동 스크롤 사용 여부
+                    autoplaySpeed: 3000,//자동 스크롤시 다음으로 넘어가는데 걸리는 시간
+                    speed:1000, //다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간
+                    dots:false, //스크롤바 아래 동그라미 표시 여부
+                    arrows:true //옆으로 이동하는 화살표 표시 여부
+                    }
+                );
+            }
+        );
+    </script>
+
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header>
+        <div class="wrap flex between">
+            <h1>
+                <a href="">SM Entertainment</a>
+            </h1>
+            <ul class="gnb flex">
+                <li><a href="">COMPANY</a></li>
+                <li><a href="">ARTIST</a></li>
+                <li><a href="">IR</a></li>
+                <li><a href="">SUSTAINABILITY</a></li>
+                <li><a href="">NEWSROOM</a></li>
+                <li><a href="">CAREERS</a></li>
+                <li><a href="">AUDITION</a></li>
+                <li><a href="">SERVICE</a></li>
+            </ul>
+            <div class="sublist hide">
+                <div class="menu1">
+                    <h2 class="hide">COMPANY</h2>
+                    <ul class="useguide">
+                        <li><a href="">INTRODUCTION</a></li>
+                        <li><a href="">HISTORY</a></li>
+                        <li><a href="">LABLES IN COMPANY</a></li>
+                        <li><a href="">MAJOR AFFILIATES</a></li>
+                    </ul>
+                </div>
+                <div class="menu2">
+                    <h2 class="hide">ARTIST</h2>
+                </div>
+                <div class="menu3">
+                    <h2 class="hide">IR</h2>
+                    <ul class="useguide">
+                        <li><a href="">IR 일정</a></li>
+                        <li><a href="">경영실적</a></li>
+                        <li><a href="">재무정보</a></li>
+                        <li><a href="">주주정보</a></li>
+                        <li><a href="">공시정보</a></li>
+                        <li><a href="">공고</a></li>
+                        <li><a href="">주가정보</a></li>
+                    </ul>
+                </div>
+                <div class="menu4">
+                    <h2 class="hide">SUSTAINABILITY</h2>
+                    <ul class="useguide">
+                        <li><a href="">ESG</a></li>
+                        <li><a href="">ENVIRONMENT</a></li>
+                        <li><a href="">SOCIETY</a></li>
+                        <li><a href="">GOVERNANCE</a></li>
+                    </ul>
+                </div>
+                <div class="menu5">
+                    <h2 class="hide">NEWSROOM</h2>
+                </div>
+                <div class="menu6">
+                    <h2 class="hide">CAREERS</h2>
+                </div>
+                <div class="menu7">
+                    <h2 class="hide">AUDITION</h2>
+                </div>
+                <div class="menu8">
+                    <h2 class="hide">SERVICE</h2>
+                    <ul class="useguide">
+                        <li><a href="">SMTOWN</a></li>
+                        <li><a href="">KWANGYA 119</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title">
+        <div class="wrap">
+            <h2>GLOBAL NO.1<br>
+                ENTERTAINMENT GROUP</h2>
+        </div>
+    </div>
+    <!-- 메인영역 -->
+    <main>
+        <!-- NEWS -->
+        <section id="nesw">
+            <div class="wrap">
+                <h2 class="h1"><a href=""></a>NEWS</h2>
+                <ul class="newAni">
+                    <li>
+                        <a href="">
+                            <h3 class="h3">SM, 삼성서울병원과 인공와우 수술 아동 K-POP 보컬·댄스수업 ‘SMile WoW 아트스쿨’ 지원 협력</h3>
+                            <p>SM엔터테인먼트(이하 SM·에스엠, 대표: 장철혁)가 삼성서울병원과 함께 인공와우 수술을 받은 아동을 위한 K-POP(케이팝) 보컬 및 댄스 수업 ‘SMile WoW(스마일 와우) 아트스쿨’ 지원에 나선다고 28일 밝혔다. SMile WoW 아트스쿨은 인공와우 수술을 받은 아동들에게 전문 보컬 및 댄스 레슨을 제공하며, 이러한 음악 활동을 통해 박자감과 음정, 발음 개선 등의 치료적 효과는 물론 자존감과 자신감도 향상시킬 수 있을 것으로 […]</p>
+                            <time>2024.02.28</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">“유행 선도” NCT, 美 롤링스톤 ‘가장 스타일리시한 뮤지션’ 선정!</h3>
+                            <p>“NCT, ‘Baggy Jeans’로 배기진 입고 춤 따라 추는 세계적 열풍 일으켜”“멤버 각각의 스타일리시한 매력으로 영감이 되는 아티스트” 호평! NCT(엔시티, 에스엠엔터테인먼트 소속)가 미국 롤링스톤이 선정한 ‘가장 스타일리시한 뮤지션’에 이름을 올렸다. NCT는 미국 음악 전문 매체 롤링스톤이 22일(현지시간) 공식 홈페이지 기사를 통해 발표한 ‘2024년 가장 스타일리시한 뮤지션 25 (The 25 Most Stylish Musicians of 2024)’에 선정됐으며, 전 […]</p>
+                            <time>2024.02.24</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">‘SMTOWN LIVE 2024’ 도쿄돔 콘서트, 10만 관객 열광 속 대성황!</h3>
+                            <p>SM 음악으로 하나 된 화려한 축제! 특별하고 다채로운 스테이지의 향연!핑크블러드로 물든 도쿄! 독보적 ‘No.1 글로벌 공연 브랜드’ 실감! SM엔터테인먼트(이하 SM)의 글로벌 공연 브랜드 ‘SMTOWN LIVE’(에스엠타운 라이브) 도쿄돔 콘서트가 성황리에 마무리됐다. 2월 21~22일 일본 도쿄돔에서 성대하게 열린 ‘SMTOWN LIVE 2024 SMCU PALACE @TOKYO’(에스엠타운 라이브 2024 에스엠씨유 팰리스 @도쿄)는 일본 전국 80개 극장의 라이브 뷰잉과 KNTV로 방영되었으며, […]</p>
+                            <time>2024.02.23</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">NCT WISH, 도쿄돔서 희망찬 데뷔 여정 시작! 청량함에 매료된 열도!</h3>
+                            <p>벅찬 설렘+반짝이는 열정 담긴 데뷔곡 ‘WISH’ 무대에 관객 환호!쏟아지는 스포트라이트 속 현지 기자회견 성황! 주요 언론 대거 참석! NCT WISH(엔시티 위시, 에스엠엔터테인먼트 소속)가 ‘꿈의 무대’ 도쿄돔에서 ‘소원과 꿈’을 향한 희망찬 여정의 첫 발을 내디뎠다. NCT WISH는 2월 21일 일본 도쿄돔에서 성대하게 열린 ‘SMTOWN LIVE 2024 SMCU PALACE @TOKYO’(에스엠타운 라이브 2024 에스엠씨유 팰리스 @도쿄)에 출연해 데뷔곡 […]</p>
+                            <time>2024.02.22</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">SM, 자회사 ‘KMR’ 통해 음악 퍼블리싱 사업 강화…글로벌 창작가 영입 본격화</h3>
+                            <p>Dsign Music, Sunshine 등 글로벌 최상위 작가 대거 영입…시장 지배력 확보 목표설립 이후 5개월 간 모노트리·더허브·텐엑스 인수완료향후 5년내 아시아 대표 음악 퍼블리싱 회사 목표 SM엔터테인먼트(이하 SM, 대표: 장철혁)의 음악 퍼블리싱 자회사 크리에이션뮤직라이츠(Kreation Music Rights, 이하 KMR)가 지난해 9월 설립된 이후 인재 채용 및 시스템 구축을 마치고, 본격적인 영업활동에 나섰다. 음악 퍼블리싱이란 창작가(작곡가 및 작사가)와 퍼블리싱 […]</p>
+                            <time>2024.02.16</time>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- IR SUMMARY -->
+        <section id="ir" class=" flex column">
+            <div class="wrap">
+                <h2 class="h1">IR SUMMARY</h2>
+                <div class="ir1">
+                    <h3 class="h3">공시정보</h3>
+                    <ul>
+                        <li>
+                            <a href="">대규모기업집단현황공시[분기별공시(개별회사용)]</a>
+                            <time>2024.02.29</time>
+                        </li>
+                        <li>
+                            <a href="">지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항</a>
+                            <time>2024.02.13</time>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ir2">
+                    <h3 class="h3">주가정보</h3>
+                    <time datetime="">2024.03.05 15:30</time>
+                    <p class="h2">73,600 <span>900</span><p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- 하단영역 -->
+    <footer>
+        <div class="wrap">
+            <div class="foot1">
+                <h1>SM
+                <br>Entertainment</h1>
+                <ul>
+                    <li><a href="SM Entertainment">유튜브</a></li>
+                    <li><a href="https://www.instagram.com/smtown/">인스타그램</a></li>
+                    <li><a href="https://twitter.com/SMTOWNGLOBAL/">트위터</a></li>
+                    <li><a href="https://www.facebook.com/smtown/">페이스북</a></li>
+                    <li><a href="https://weibo.com/smtown/">웨이보</a></li>
+                </ul>
+            </div>
+            <div class="foot2">
+                <ul>
+                    <li><a href="">CONTACT US</a>
+                        <ul class="contact">
+                            <li><a href="">LOCATION</a></li>
+                            <li><a href="">IR CONTACT</a></li>
+                            <li><a href="">BUSINESS CONTACT</a></li>
+                            <li><a href="">비윤리행위 신고</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">FAMILY SITE</a></li>
+                    <li><a href="">LANGUAGE</a>
+                        <select>
+                            <option value="">한국어</option>
+                            <option value="">English</option>
+                            <option value="">中文</option>
+                            <option value="">日本語</option>
+                        </select>
+                    </li>
+                </ul>
+                <p><a href="">개인정보처리방침</a></p>
+                <p>© SM Entertainment. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
