@@ -3,7 +3,6 @@ section#nesw{
   height: 550px;
 }
 section#nesw .wrap{
-
 }
 section#nesw .wrap h2{
   padding: 60px 0 30px;
@@ -16,7 +15,7 @@ section#nesw .wrap ul{
   display: flex;
 }
 section#nesw .wrap ul li{
-  padding: 0 30px;
+  padding-right: 30px;
   box-sizing: border-box;
   max-width: 600px;
 }
@@ -57,30 +56,41 @@ section#nesw .wrap ul li a time::before{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url(../img/arrow_left.svg);
+  background-image: url(../img/arrow_right.svg);
   border-radius: 50%;
   border: 1px solid;
 }
 section#nesw .wrap .slick-prev{  
   top: -73px;
-  left: 1623px;
+  left: 1578px;
 }
 section#nesw .wrap .slick-next{  
   top: -73px;
-  right: 26px;
+  right: 12px;
 }
 section#nesw .wrap .slick-prev,
 section#nesw .wrap .slick-next{  
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   opacity: 1;
 }
 section#nesw .wrap .slick-prev::before,
 section#nesw .wrap .slick-next::before{  
-  font-size: 50px;
   opacity: 1;
-  color: black;
+  content: "";
+  height: 99px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+section#nesw .wrap .slick-prev::before{
+  background-image: url(../img/left.svg);
+}
+section#nesw .wrap .slick-next::before{
+  background-image: url(../img/right.svg);
+}
+
+
 
 section#ir{
   background-color: #B0B7C0;
@@ -111,8 +121,7 @@ section#ir .wrap .ir1{
 section#ir .wrap .ir1 h3{
 
 }
-section#ir .wrap .ir1 ul{
-  
+section#ir .wrap .ir1 ul{  
   display: flex;
   flex-direction: column;
   justify-content: center;
