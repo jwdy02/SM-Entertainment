@@ -17,7 +17,6 @@ section#nesw .wrap ul{
 }
 section#nesw .wrap ul li{
   padding: 0 30px;
-  margin-left: -30px;
   box-sizing: border-box;
   max-width: 600px;
 }
@@ -62,7 +61,26 @@ section#nesw .wrap ul li a time::before{
   border-radius: 50%;
   border: 1px solid;
 }
-
+section#nesw .wrap .slick-prev{  
+  top: -73px;
+  left: 1623px;
+}
+section#nesw .wrap .slick-next{  
+  top: -73px;
+  right: 26px;
+}
+section#nesw .wrap .slick-prev,
+section#nesw .wrap .slick-next{  
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+section#nesw .wrap .slick-prev::before,
+section#nesw .wrap .slick-next::before{  
+  font-size: 50px;
+  opacity: 1;
+  color: black;
+}
 
 section#ir{
   background-color: #B0B7C0;
