@@ -17,7 +17,6 @@ section#nesw .wrap ul{
 section#nesw .wrap ul li{
   padding-right: 30px;
   box-sizing: border-box;
-  max-width: 600px;
 }
 section#nesw .wrap ul li a{
   border-top: 3px solid;
@@ -31,7 +30,6 @@ section#nesw .wrap ul li a h3{
   margin-bottom: 30px;
   line-height: 1.2;
   padding: 30px 20px 0;
-  font-weight: bold;
 }
 section#nesw .wrap ul li a p{
   overflow: hidden;

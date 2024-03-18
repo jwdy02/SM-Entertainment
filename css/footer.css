@@ -39,30 +39,27 @@ footer .wrap .foot1 ul{
 footer .wrap .foot1 ul li{
   font-size: 0;
 }
-footer .wrap .foot1 ul li::before{
+footer .wrap .foot1 ul li a::before{
   content: "";
   display: inline-block;
   width: 28px;
   height: 28px; 
   background-size: contain;
 }
-footer .wrap .foot1 ul li:nth-child(1)::before{
+footer .wrap .foot1 ul li:nth-child(1) a::before{
   background-image: url('https://cdn2.smentertainment.com/images/icon-link-youtube.svg');
 }
-footer .wrap .foot1 ul li:nth-child(2)::before{
+footer .wrap .foot1 ul li:nth-child(2) a::before{
   background-image: url('https://cdn2.smentertainment.com/images/icon-link-instagram.svg');
 }
-footer .wrap .foot1 ul li:nth-child(3)::before{
+footer .wrap .foot1 ul li:nth-child(3) a::before{
   background-image: url('https://cdn2.smentertainment.com/images/icon-link-x.svg');
 }
-footer .wrap .foot1 ul li:nth-child(4)::before{
+footer .wrap .foot1 ul li:nth-child(4) a::before{
   background-image: url('https://cdn2.smentertainment.com/images/icon-link-facebook.svg');
 }
-footer .wrap .foot1 ul li:nth-child(5)::before{
+footer .wrap .foot1 ul li:nth-child(5) a::before{
   background-image: url('https://cdn2.smentertainment.com/images/icon-link-weibo.svg');
-}
-footer .wrap .foot1 ul li a{
-
 }
 footer .wrap .foot2{
   padding-right: 86px;
@@ -100,8 +97,8 @@ footer .wrap .foot2 ul li select option{
 }
 footer .wrap .foot2 p{
   color: #B0B7C0;
-  padding-bottom: 20px;
   font-size: 15px;
+  padding-bottom: 20px;
 }
 footer .wrap .foot2 p a{
   color: white;
